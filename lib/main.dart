@@ -100,7 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: <Widget>[
               TextField(
                 controller: _quantityController,
-                focusNode: _quantityFocusNode, // <-- Attach focus node
+                focusNode: _quantityFocusNode,
                 keyboardType: TextInputType.none,
                 decoration: const InputDecoration(
                   labelText: 'Cantidad',
@@ -115,7 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
               const SizedBox(height: 20),
               TextField(
                 controller: _barcodeController,
-                focusNode: _barcodeFocusNode, // <-- Nuevo
+                focusNode: _barcodeFocusNode,
                 keyboardType: TextInputType.none,
                 decoration: const InputDecoration(
                   labelText: 'Código de Barras',
